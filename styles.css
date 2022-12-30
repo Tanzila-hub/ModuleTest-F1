@@ -1,0 +1,207 @@
+@media screen and (min-width:1024px){
+.nav-parent{
+    height: 87px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    line-height: 87px;
+    font-size: large;
+}
+.nav-child1{
+    float: left;
+}
+.nav-child2{
+    float: right;
+    width: 400px;
+    text-align: left;
+    display: flex;
+justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home-parent{
+height: 700px;
+width: 100%;
+background-color: #000;
+color: white;
+display: flex;
+justify-content: space-between;
+margin-top: 87px;
+left: 0%;
+right: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.home-child1{
+color: white;
+float: left;
+font-size: 150px;
+font-weight: 80;
+letter-spacing: 0em;
+text-align: left;
+width: 70%;
+margin-top: 30px;
+margin-left: 100px;
+animation-name: animateit;
+  animation-duration: 2s;
+}
+@keyframes animateit  {
+    from {color: white;}
+    to {color: purple;}
+}
+.home-child2{
+margin-top: 400px;
+margin-right: 100px;
+}
+.aboutUs-parent{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
+.aboutUs-image{
+   float: left;
+   margin-top: 200px;
+   margin-left: 150px;
+}
+.aboutUs-para h1{
+   text-align: center;
+   font-size: 50px;
+}
+.aboutUs-para{
+    float: right;
+    margin-top: 200px;
+    margin-right: 150px;
+    width: 50%;
+}
+.ourServices-parent{
+height: 500px;
+width: 120%;
+display: flex;
+justify-content: space-between;
+overflow-x: scroll;
+}
+h1{
+font-size: 50px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+.ourServices-child1{
+height: 400px;
+width: 50%;
+border: 1px solid #000;
+margin: 20px;
+background-color: white;
+color: black;
+}
+.ourServices-child1 :hover{
+    background-color: black;
+    color: white;
+}
+.ourServices-child2{
+    height: 400px;
+    width: 50%;
+    border: 1px solid #000;
+    margin: 20px;
+    background-color: white;
+color: black;
+}
+.ourServices-child2 :hover{
+    background-color: black;
+    color: white;
+}
+.ourServices-child3{
+    height: 400px;
+    width: 50%;
+    border: 1px solid #000;
+    margin: 20px;
+    background-color: white;
+   color: black;
+}
+.ourServices-child3 :hover{
+    background-color: black;
+    color: white;
+}
+.ourServices-child1 p{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container{
+    background-color: black;
+    color: white;
+    font-family: inter ;
+    width: 100%;
+    height: 700px;
+
+}
+.container h1{
+    font-size: 4rem;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+input[type="text"],input[type="email"]{
+    border: none;
+    width: 65%;
+    color: white;
+    margin: 10px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: #000;
+    margin-left: 20%;
+}
+input[type="text"],input[type="email"]:focus{
+outline: none;
+}
+input[type="text"],input[type="email"]::palceholder{
+    color: white;
+    background-color: #000;
+    }
+button{
+    background-color: white;
+    align-items: center;
+    color: black;
+    margin-left: 20%;
+    padding: 10px;
+    width: 100px;
+}
+}
+@media screen and(min-width:480px),(max-width:767px){
+    body{
+        background-color: #000;
+        text-decoration: none;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+@media screen and(min-width:767px),(max-width:1000px){
+    body{
+        background-color:gray;
+        text-decoration: none;
+        color: papayawhip;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }  
+}
